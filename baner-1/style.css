@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.slider {
+	height: 110px;
+	width: 360px;
+	border: 1px solid #333;
+	margin: 0 auto;
+	background-image: url(images/image1.png);
+	overflow: hidden;
+	position: relative;
+}
+.hinhxoay {
+	width: 340px;
+	height: 340px;
+	position: absolute;
+	top: -125px;
+	left: -80px;
+	animation: xoay 10s linear infinite;
+}
+.e {
+	position: absolute;
+	bottom: 5px;
+	left: 20px;
+	animation: e 10s linear infinite;
+}
+.matnguoi {
+	position: absolute;
+	bottom: 5px;
+	left: 50px;
+	animation: bohoa 10s linear infinite;
+}
+.bohoa {
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	animation: bohoa 10s linear infinite;
+}
+.a {
+	position: absolute;
+	bottom: 5px;
+	left: 80px;
+	animation: a 10s linear infinite;
+}
+.cham {
+	position: absolute;
+	bottom: 5px;
+	left: 110px;
+	animation: cham 10s linear infinite;
+}
+.v {
+	position: absolute;
+	bottom: 5px;
+	left: 120px;
+	animation: v 10s linear infinite;
+}
+.n {
+	position: absolute;
+	bottom: 5px;
+	left: 150px;
+	animation: n 10s linear infinite;
+}
+.noidung {
+	position: absolute;
+	top: 20px;
+	right: -30px;
+	animation: noidung 10s linear infinite;
+}
+.xemngay{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	margin: 0;
+	padding: 0;
+	right: 48px;
+	animation: xemngay 10s linear infinite, nhapnhay 1s linear infinite;
+}
+
+@keyframes xoay {
+ from {
+transform: rotate(0deg)
+}
+ to {
+transform: rotate(360deg)
+}
+}
+@keyframes bohoa {
+ 0%,5% {
+ transform: scale(3);
+ opacity: 0;
+}
+ 10%,90% {
+ transform: scale(1);
+ opacity: 1;
+}
+ 100% {
+ transform: scale(1);
+ opacity: 0;
+}
+}
+@keyframes e {
+ 0%, 10% {
+left: -30px;
+opacity: 0;
+}
+ 15%,90% {
+left:20px;
+opacity: 1;
+}
+
+ 100% {
+opacity: 0;
+}
+}
+@keyframes a {
+ 0%, 15% {
+ left: 100px;bottom: 5px;
+ opacity: 0;
+}
+ 20%,90% {
+left: 80px;bottom: 5px;
+ opacity: 1;
+}
+
+ 100% {
+opacity: 0
+}
+}
+@keyframes cham {
+ 0%, 20% {
+ bottom: 90px;
+ opacity: 0;
+}
+ 25%,90% {
+ bottom: 5px;
+ opacity: 1;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@keyframes v {
+ 0%, 25% {
+ left:150px ;bottom: 5px;
+ opacity: 0;
+}
+ 30%,90% {
+ left:120px ;bottom: 5px;
+ opacity: 1;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@keyframes n {
+ 0%, 30% {
+ left:190px ;bottom: 5px;
+ opacity: 0;
+}
+ 35%,90% {
+ left:150px ;bottom: 5px;
+ opacity: 1;
+} 
+ 100% {
+ opacity: 0;
+}
+}
+@keyframes noidung{
+	0%, 35%{
+		opacity: 0;
+	}
+	40%,90%{
+		opacity: 1;
+	}
+	100%{opacity: 0;}
+}
+@keyframes xemngay{
+	
+	0%, 40%{
+		opacity: 0;
+	}
+	45%,90%{
+		opacity: 1;)
+	}
+	100%{opacity: 0; }
+}
+@keyframes nhapnhay{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.2)}
+	100%{transform: scale(1)}
+}

@@ -1,0 +1,303 @@
+/* CSS Document */
+
+body {
+	color: #676765;
+	background: #f5f4f2;
+	width: 1400px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.space {
+	height: 20px;
+}
+/*== header ==*/
+
+header {
+	height: 180px;
+	width: 100%;
+	background-image: url(../images/bg_header.jpg);
+	position: relative;
+}
+.content {
+	padding: 30px;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 1400px;
+	z-index: 100;
+}
+.sticky + .content {
+	padding-top: 30px;
+}
+
+.navigation ul {
+	list-style-type: none;
+	background: #b80d7f;
+	padding: 0;
+	margin: 0;
+}
+.navigation ul li {
+	display: inline-block;
+	min-width: 130px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+.navigation ul li a {
+	color: #f1f1f1;
+	text-decoration: none;
+	padding: 0 20px;
+	display: block;
+}
+.navigation ul li a:hover {
+	background: #f1f1f1;
+	color: #b80d7f
+}
+.navigation ul li .menu {
+	display: none;
+	position: absolute;
+}
+.menu li {
+	border-bottom: 1px dashed #f1f1f1;
+	text-align: left;
+}
+.menu li a {
+	min-width: 320px;
+}
+.navigation ul li:hover .menu {
+	display: block;
+}
+.a1 {
+	border-bottom: none;
+}
+.logo {
+	height: 40px;
+	width: 120px;
+	border-radius: 0% 0 0 0%;
+	position: absolute;
+	right: -6px;
+	top: 94px;
+}
+.logo img {
+	width: 39px;
+	height: 39px;
+}
+.logo h4 {
+	color: #f1f1f1;
+	margin-top: 6px;
+}
+.tintuc {
+	height: 345px;
+}
+.tin1 h4 {
+	color: #676765;
+}
+.tin2 {
+	margin-top: 60px;
+}
+.tin22 {
+	padding-top: 10px;
+	border-top: 1px solid #d8d7d5;
+	height: 120px;
+	float: left;
+}
+.tin22 img {
+	float: left;
+	padding-right: 10px;
+}
+.tin22 p {
+	margin-top: 5px 0
+}
+.tin22 p .act {
+	color: #aa0d78;
+}
+.tin22 p a {
+	text-decoration: none;
+	color: #676765;
+	text-transform: uppercase;
+}
+.khachhang .d1 {
+	min-height: 405px;
+	width: 365px;
+	background: #e8e7e3;
+	position: relative;
+}
+/*== Dịch vụ yêu thích == */
+.dvu {
+	background-image: url(../images/bg.jpg);
+	min-height: 315px;
+}
+.dvu h1 {
+	padding-top: 10px;
+	color: #f1f1f1;
+	font-size: 30px;
+}
+.dvu img {
+	padding-left: 20px;
+}
+.dvu div {
+	text-align: left;
+	padding: 20px;
+	color: #f1f1f1;
+}
+.dvu div a {
+	text-decoration: none;
+	float: right;
+	color: #f1f1f1;
+	padding: 20px;
+}
+/*== Công nghệ làm đẹp cao cấp ==*/
+.cn {
+	cursor: pointer;
+}
+.cn a img {
+	padding-bottom: 0;
+}
+.cn1 {
+	height: 45px;
+	width: 100%;
+	background: #b80d7f;
+	padding-top: 0;
+}
+.cn1 center {
+	padding: 10px;
+}
+.cn1 center a {
+	padding-top: 10px;
+	text-align: center;
+	color: #f1f1f1;
+	margin-top: -4px;
+	text-decoration: none;
+}
+/*== Video, hình ảnh, khuyến mãi ==*/
+.video {
+	margin: 10px;
+	min-height: 400px;
+	background: #e8e7e3;
+	position: relative;
+	width: 380px;
+}
+.video h2 {
+	padding: 0 10px
+}
+.video img {
+	padding: 0 10px;
+}
+.video p {
+	background: #b80d7f;
+	height: 30px;
+	width: 90px;
+	line-height: 30px;
+	text-align: center;
+	color: #f1f1f1;
+	border-radius: 8%;
+	margin-left: 15px;
+	bottom: 10px;
+	position: absolute;
+}
+.hinhanh {
+	margin: 10px;
+	height: 400px;
+	background: #e8e7e3;
+	width: 380px;
+	position: relative;
+}
+.hinhanh h2 {
+	padding: 0 10px
+}
+.hinhanh img {
+	padding: 10px;
+}
+.hinhanh p {
+	background: #b80d7f;
+	height: 30px;
+	width: 90px;
+	line-height: 30px;
+	text-align: center;
+	color: #f1f1f1;
+	border-radius: 8%;
+	margin-left: 15px;
+	bottom: 10px;
+	position: absolute;
+}
+.kmai {
+	margin: 10px;
+	min-height: 400px;
+	background: #e8e7e3;
+	position: relative;
+	width: 380px;
+}
+.kmai h2 {
+	padding: 0 10px
+}
+.kmai img {
+	padding: 0 10px;
+}
+.kmai p {
+	background: #b80d7f;
+	height: 30px;
+	width: 90px;
+	line-height: 30px;
+	text-align: center;
+	color: #f1f1f1;
+	border-radius: 8%;
+	margin-left: 15px;
+	bottom: 10px;
+	position: absolute;
+}
+
+.tvan2 {
+	padding-top: 50px;
+}
+.tvan22 {
+	border-bottom: 1px solid rgba(203,203,201,1.00);
+}
+.bgia {
+	margin-top: -10px;
+}
+.bgia h2 {
+	background: #b80d7f;
+	height: 40px;
+	line-height: 40px;
+	color: #f1f1f1;
+	padding-left: 10px;
+}
+.bgiaform {
+	background: #594b4b;
+	height: 403px;
+	margin-left: 10px;
+}
+.bgiaform form {
+	padding-top: 40px;
+}
+.bgiaform input {
+	width: 340px;
+	border-radius: 10px;
+	height: 50px;
+	margin: 10px;
+}
+.bgiaform input[type=text] {
+	padding: 10px;
+}
+.bgiaform input[type=submit] {
+	background: rgba(184,13,127,1.00);
+	border: none;
+	color: #f1f1f1;
+	font-size: 20px;
+	width: 80px;
+	text-align: center;
+	float: right;
+}
+/*== ĐỐI TÁC ==*/
+.space{}
+/*== FOOTER ==*/
+footer{
+	background: #382f30;
+	height: 220px;
+	padding: 20px;
+	color:#f1f1f1;
+}
+footer .ft i{
+	margin: 0 10px
+}

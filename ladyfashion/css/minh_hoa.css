@@ -1,0 +1,47 @@
+/* CSS Document */
+
+.sanpham{	
+	margin: 10px 0 10px 0;	
+	text-align: center;
+}
+.clear20{
+	clear:both;
+	height:20px
+}
+.cuoitrang
+{
+	background-color:#C00;
+	color:#fff;
+	font-size:14px;
+	min-height:200px;
+	text-align:right;
+	padding:10px 20px;	
+	margin:15px;
+}
+.canhdeu
+{
+	padding:15px;
+}
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px;
+    right: 10px;
+	
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px;
+    right: 10px;
+	
+}
+
+@media (max-width: 992px){
+	.canhgiua{
+		  text-align: center;
+		 
+	}
+	
+}
+
+
